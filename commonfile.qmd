@@ -1,6 +1,28 @@
 ---
-title: "Fichier Commun"
+title: "Common File"
 author: "Louise & Esteban"
 format: html
 editor: visual
 ---
+
+## Types and Classes
+
+### Types
+
+```{r}
+typeof(1.5)
+typeof("toto")
+typeof('between single quotes')
+typeof(TRUE)
+typeof(1L)
+typeof(1)
+typeof(typeof)
+typeof(list())
+```
+### Classes
+
+```{r}
+data(iris)
+typeof(iris)
+class(iris)
+```
