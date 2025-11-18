@@ -78,9 +78,49 @@ some_values <- c('☀️😎')
 some_values
 length(some_values)
 str_length(some_values)
-str_to_kebab('test FJIEOAF')
+```
+
+### Indexing
+
+```{r}
+x <- c(6,5,1,2,3,4)
+x[3]
+```
+```{r}
+x
+x[4] <- 4
+x
+```
+```{r}
+y<-x
+y
+```
+Assignemtn can be understood as a value semanti assignment x and y are different vectors with the same initial content.
+```{r}
+x[1]<-18
+x
+y
 ```
 
 
+Therefore, modifying x has no effect on y
 
+
+Indexing is made with vectors of any length
+
+```{r}
+x
+x[c(2,2,1,4,3,4)]
+x
+```
+```{r}
+x[c(-1)]
+```
+
+
+```{r}
+y <- c('A','B','C')
+y <- c(TRUE, FALSE, TRUE)
+y
+```
 
