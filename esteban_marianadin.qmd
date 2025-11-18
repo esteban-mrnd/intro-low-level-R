@@ -4,3 +4,16 @@ author: "Esteban Marianadin"
 format: html
 ---
 
+## Types and Classes
+
+```{r}
+typeof(1.5)
+typeof("toto")
+typeof('between single quotes')
+typeof(TRUE)
+typeof(1L)
+typeof(1)
+typeof(typeof)
+typeof(list())
+```
+
