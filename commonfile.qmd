@@ -144,3 +144,20 @@ Vectors must  be type uniforme, which will trigger a conversion to character in 
 Lists do not have this limitation.
 
 ### Creating  a list
+
+A list can be understood as a vector of vectors.
+
+```{r}
+foo <- list(c(1,2,3), TRUE, length)
+foo
+length(foo)
+
+foo
+foo[1]
+cat('###\n')
+foo[-2]
+cat('###\n')
+foo[c(1,2,3)]
+
+```
+
